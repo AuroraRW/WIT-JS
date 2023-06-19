@@ -2,6 +2,9 @@
 // ECMAScript 2015: ES6
 // How to run js code (browser or node)
 
+
+// different with python, javascript code use curly brackets not indentation
+
 ////////////////////variable///////////////
 // var/let/const
 // const a = 1
@@ -20,7 +23,7 @@
 // console.log(a)
 
 /////////////////data type I: number,string//////////////
-// number:
+// number: always save as float
 // ++ Increment/-- Decrement
 // assignment: a+=2
 
@@ -155,12 +158,27 @@
 
 /////////////////Ternary operator//////////////////
 // x=1
-// if(x=1){
+// if(x==1){
 //     console.log('good')
 // }else{
 //     console.log('bad')
 // }
-// x=1? console.log('good') : console.log('bad')
+// x==1? console.log('good') : console.log('bad')
+
+// x=1
+// y=3
+// if(x==1){
+//     if(y==2){
+//         console.log('great')
+//     } 
+//     else{
+//         console.log('good')
+//     }
+// }else{
+//     console.log('bad')
+// }
+
+// x==1? y==2? console.log('great'): console.log('good') : console.log('bad')
 
 ////////////////////////destructuring///////////////////
 // let [a,,b]=[1,2,3,4]
