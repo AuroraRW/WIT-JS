@@ -1,5 +1,6 @@
 # WIT-JS
-
+## RestAPI
+### There are 4 ways to send the request and get the response: XMLHttpRequest, fetch, jQuery($.getJSON) and Axios
 
 ## Thunder client in VS code
 Try to send a request and receive a response
